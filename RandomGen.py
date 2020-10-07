@@ -1,6 +1,6 @@
 import random
-minValue=1
-maxValue=6
+minValue=random.randit(1,10)
+maxValue=random.randit(10,20)
 
 while True:
     x=random.randint(minValue, maxValue)
